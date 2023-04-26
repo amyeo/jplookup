@@ -75,5 +75,65 @@ Lookup > 気動車
 ```
 It will prompt you for the word.
 
+# Performance
+
+Placeholder query via:
+```
+$ time bin/jplookup 高速?路
+
+Results:
+===================
+
+ID: 1283720
+Kanji (漢字):
+高速道路
+
+Kana (かな):
+こうそくどうろ
+
+Meaning (ENG / 英語):
+highway
+freeway
+expressway
+motorway
+
+---------------------
+
+ID: 2399170
+Kanji (漢字):
+州間高速道路
+
+Kana (かな):
+しゅうかんこうそくどうろ
+
+Meaning (ENG / 英語):
+interstate highway
+
+---------------------
+
+ID: 1854650
+Kanji (漢字):
+東名高速道路
+
+Kana (かな):
+とうめいこうそくどうろ
+
+Meaning (ENG / 英語):
+Tokyo-Nagoya Expressway
+
+---------------------
+
+
+real	0m0.015s
+user	0m0.009s
+sys	0m0.007s
+```
+
+```
+424M	jisho.db
+```
+Unfortunately, due to optimizations for speed, the local db file size is larger than ideal. I might look into this in a later version.
+For my case, CPU is more expensive than storage.
+
 # JMdict attribution
 This publication has included material from the JMdict (EDICT, etc.) dictionary files in accordance with the licence provisions of the Electronic Dictionaries Research Group. See http://www.edrdg.org/ 
