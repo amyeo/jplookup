@@ -4,9 +4,9 @@ Standalone CLI Japanese to English based on JMdict. This is a re-write of https:
 # How to run
 
 ```
-./download_jmdict.sh
-make index
-make build
+$ ./download_jmdict.sh
+$ make index
+$ make build
 ```
 
 The first command downloads the JMdict dictionary from the source and unpacks it.
