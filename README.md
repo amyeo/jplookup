@@ -133,7 +133,7 @@ sys	0m0.007s
 424M	jisho.db
 ```
 Unfortunately, due to optimizations for speed, the local db file size is larger than ideal. I might look into this in a later version.
-For my case, CPU is more expensive than storage.
+For my case, CPU is more expensive than storage so the design ended up this way.
 
 # JMdict attribution
 This publication has included material from the JMdict (EDICT, etc.) dictionary files in accordance with the licence provisions of the Electronic Dictionaries Research Group. See http://www.edrdg.org/ 
