@@ -1,6 +1,6 @@
 build:
 	mkdir -p  "bin"
-	go build -o bin/jisho2 .
+	go build -o bin/jplookup .
 run:
 	go run .
 index:

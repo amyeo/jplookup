@@ -16,9 +16,9 @@ After running those two commands, you can use the dictionary
 
 # Running
 
-After running the commands above, the built executable will be at bin/jisho2.
+After running the commands above, the built executable will be at bin/jplookup.
 ```
-$ bin/jisho2 かいさつ
+$ bin/jplookup かいさつ
 
 Results:
 ===================
@@ -66,11 +66,11 @@ So you use '?' for a fixed/known length of unknown characters and '*' for an unk
 # Interactive and non-interactive queries
 
 ```
-$ bin/jisho2 かいさつ
+$ bin/jplookup かいさつ
 ```
 will lookup a word, but if you do not specify a word:
 ```
-bin/jisho2
+$ bin/jplookup
 Lookup > 気動車
 ```
 It will prompt you for the word.
